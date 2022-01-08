@@ -1,2 +1,4 @@
 # simon-game
-Simon-game using html, CSS, JavaScript.
+Simon-game
+
+I made simon game using basic HTML, CSS and JavaScript.
