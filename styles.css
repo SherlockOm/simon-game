@@ -1,0 +1,81 @@
+
+/* tags */
+body {
+  text-align: center;
+  background-color: #243a50;
+}
+
+h6{
+  margin : 10px 0;
+}
+
+/* ids */
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #08f800;
+  line-height: 1.5;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  /* min-width: 100%;
+  min-height: 100%; */
+  z-index: -1;
+  opacity: 0.4;
+}
+
+
+/* classes */
+.container {
+  display: block;
+  width: 40%;
+  margin: auto;
+  /* border: 2px solid gold; */
+  border-radius: 35%;
+}
+
+.btn {
+  margin: 10px ;
+  display: inline-block;
+  height: 150px;
+  width: 180px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 40%;
+}
+
+.btn:hover{
+  filter: brightness(80%);
+}
+.game-over {
+  
+  background-color: red;
+  opacity: 0.5;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  /* background-color: grey; */
+  filter: brightness(150%);
+  filter: saturate(150%);
+}
